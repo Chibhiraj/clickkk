@@ -16,7 +16,7 @@ function App() {
       .catch((error) => {
         console.error('Error fetching users:', error);
       });
-  }, []);
+  }, []); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
